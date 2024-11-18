@@ -1,0 +1,40 @@
+    <!DOCTYPE html>
+    <html lang="en">
+      <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Interactive Quiz</title>
+        <link rel="stylesheet" href="css/styles.css" />
+      </head>
+      <body>
+        <header>
+          <h1>Interactive Quiz</h1>
+          <nav>
+            <a href="index.html">Home</a>
+            <a href="api.html">Fetch Joke</a>
+          </nav>
+        </header>
+        <main>
+          <div id="quiz-container">
+            <h1>Interactive Quiz</h1>
+            <div id="question">Question goes here</div>
+            <div id="options-container">
+              <button class="option" data-answer="A">Option A</button>
+              <button class="option" data-answer="B">Option B</button>
+              <button class="option" data-answer="C">Option C</button>
+              <button class="option" data-answer="D">Option D</button>
+            </div>
+            <button id="next-btn">Next</button>
+            <br/>
+            <div id="feedback"></div><br/>
+            <div id="score">Score: 0</div>
+          </div>
+        </main>
+        <footer>
+          <p>© 2024 My Advanced Web Project</p>
+        </footer>
+        <script src="js/quiz.js"></script>
+      </body>
+    </html>
+  </body>
+</html>
